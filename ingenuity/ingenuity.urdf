@@ -22,6 +22,12 @@
 				<mesh filename="./meshes/MHS_MainBody_v16.glb" scale="1 1 1"/>
 			</geometry>
 		</visual>
+		<collision name="ColGeom_MHS_MainBody_v16">
+			<origin xyz="0 0 0" rpy="0 -0 0"/>
+			<geometry>
+				<mesh filename="./meshes/MHS_MainBody_v16.glb" scale="1 1 1"/>
+			</geometry>
+		</collision>
 	</link>
 	<link name="Body_MHS_TopBlades_v16">
 		<inertial>
@@ -35,6 +41,12 @@
 				<mesh filename="./meshes/MHS_TopBlades_v16.glb" scale="1 1 1"/>
 			</geometry>
 		</visual>
+		<collision name="ColGeom_MHS_TopBlades_v16">
+			<origin xyz="0 0 0" rpy="0 -0 0"/>
+			<geometry>
+				<mesh filename="./meshes/MHS_TopBlades_v16.glb" scale="1 1 1"/>
+			</geometry>
+		</collision>
 	</link>
 	<link name="Body_MHS_BottomBlades_v16">
 		<inertial>
@@ -48,6 +60,12 @@
 				<mesh filename="./meshes/MHS_BottomBlades_v16.glb" scale="1 1 1"/>
 			</geometry>
 		</visual>
+		<collision name="ColGeom_MHS_BottomBlades_v16">
+			<origin xyz="0 0 0" rpy="0 -0 0"/>
+			<geometry>
+				<mesh filename="./meshes/MHS_BottomBlades_v16.glb" scale="1 1 1"/>
+			</geometry>
+		</collision>
 	</link>
 	<link name="Body_Joint_Leg02_Axis">
 		<inertial>
@@ -68,6 +86,12 @@
 				<mesh filename="./meshes/MHS_Leg02_v16.glb" scale="1 1 1"/>
 			</geometry>
 		</visual>
+		<collision name="ColGeom_MHS_Leg02_v16">
+			<origin xyz="0 0 0" rpy="0 -0 0"/>
+			<geometry>
+				<mesh filename="./meshes/MHS_Leg02_v16.glb" scale="1 1 1"/>
+			</geometry>
+		</collision>
 	</link>
 	<link name="Body_Joint_Leg01_Axis">
 		<inertial>
@@ -88,6 +112,12 @@
 				<mesh filename="./meshes/MHS_Leg01_v16.glb" scale="1 1 1"/>
 			</geometry>
 		</visual>
+		<collision name="ColGeom_MHS_Leg01_v16">
+			<origin xyz="0 0 0" rpy="0 -0 0"/>
+			<geometry>
+				<mesh filename="./meshes/MHS_Leg01_v16.glb" scale="1 1 1"/>
+			</geometry>
+		</collision>
 	</link>
 	<link name="Body_Joint_Leg03_Axis">
 		<inertial>
@@ -108,6 +138,12 @@
 				<mesh filename="./meshes/MHS_Leg03_v16.glb" scale="1 1 1"/>
 			</geometry>
 		</visual>
+		<collision name="ColGeom_MHS_Leg03_v16">
+			<origin xyz="0 0 0" rpy="0 -0 0"/>
+			<geometry>
+				<mesh filename="./meshes/MHS_Leg03_v16.glb" scale="1 1 1"/>
+			</geometry>
+		</collision>
 	</link>
 	<link name="Body_Joint_Leg04_Axis">
 		<inertial>
@@ -128,6 +164,12 @@
 				<mesh filename="./meshes/MHS_Leg04_v16.glb" scale="1 1 1"/>
 			</geometry>
 		</visual>
+		<collision name="ColGeom_MHS_Leg04_v16">
+			<origin xyz="0 0 0" rpy="0 -0 0"/>
+			<geometry>
+				<mesh filename="./meshes/MHS_Leg04_v16.glb" scale="1 1 1"/>
+			</geometry>
+		</collision>
 	</link>
 	<link name="Frame_MHS_NAVCAM"></link>
 	<joint name="MHS_MainBody_v16" type="fixed">
