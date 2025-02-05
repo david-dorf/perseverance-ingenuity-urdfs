@@ -14,6 +14,6 @@ Credit NASA/JPL-Caltech
 
 Rover modeling and texturing by Zareh Gorjian
 
-Slightly modified with mass/inertia estimates and maintained by David Dorf
+Modified with mass/inertia/collision estimates and maintained by David Dorf
 
 Visualization videos done using Rerun: https://rerun.io/
