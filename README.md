@@ -1,4 +1,4 @@
-[Screencast from 2025-02-05 11-02-52.webm](https://github.com/user-attachments/assets/21351ccf-a15e-4f5f-bb39-cd64257769ac)
+[Screencast from 2025-02-05 11-07-31.webm](https://github.com/user-attachments/assets/fb89d161-8f8d-48e6-9fea-e2389ee646dd)
 
 [Screencast from 2025-02-05 10-51-32.webm](https://github.com/user-attachments/assets/35deacca-e0fd-4aaa-858e-90193de9d9b3)
 
