@@ -14,6 +14,8 @@ Credit NASA/JPL-Caltech
 
 Rover modeling and texturing by Zareh Gorjian
 
-Modified with mass/inertia/collision estimates and maintained by David Dorf
+Modified from https://github.com/nasa-jpl/m2020-urdf-models with mass/inertia/collision estimates
+
+Maintained by David Dorf
 
 Visualization videos done using Rerun: https://rerun.io/
