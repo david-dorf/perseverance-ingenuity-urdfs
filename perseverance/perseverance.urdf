@@ -4,17 +4,8 @@
 
 <robot name="Perseverance">
 	<link name="ground">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="0"/>
-		</inertial>
 	</link>
 	<link name="Body_Chassis">
-		<inertial>
-			<origin xyz="0.09002 0 -1.13338" rpy="0 0 0"/>
-			<mass value="900"/>
-			<inertia ixx="1000" ixy="0" ixz="0" iyy="1000" iyz="0" izz="1000"/>
-		</inertial>
 		<visual name="VisGeom_CHASSIS">
 			<origin xyz="0.09002 0 -1.13338" rpy="0 -0 0"/>
 			<geometry>
@@ -29,11 +20,6 @@
 		</collision>
 	</link>
 	<link name="Body_MHS_DebrisShield">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<!-- hidden visual element
 		<visual name="VisGeom_MHS_DebrisShield">
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -44,11 +30,6 @@
 		-->
 	</link>
 	<link name="Body_Differential">
-		<inertial>
-			<origin xyz="0.142 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_CenterDifferential">
 			<origin xyz="0.142 0 0" rpy="0 -0 0"/>
 			<geometry>
@@ -57,11 +38,6 @@
 		</visual>
 	</link>
 	<link name="Body_RockerLeft">
-		<inertial>
-			<origin xyz="-0.214 0.79959 -0.2405" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Left_Rocker">
 			<origin xyz="-0.214 0.79959 -0.2405" rpy="0 -0 0"/>
 			<geometry>
@@ -70,11 +46,6 @@
 		</visual>
 	</link>
 	<link name="Body_BogieLeft">
-		<inertial>
-			<origin xyz="0.54 0.91959 -0.4705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Left_Bogie">
 			<origin xyz="0.54 0.91959 -0.4705" rpy="0 -0 0"/>
 			<geometry>
@@ -83,11 +54,6 @@
 		</visual>
 	</link>
 	<link name="Body_SteerLeftRear">
-		<inertial>
-			<origin xyz="1.165 1.0625 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Steer_LeftRear">
 			<origin xyz="1.165 1.0625 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -96,11 +62,6 @@
 		</visual>
 	</link>
 	<link name="Body_WheelLeftRear">
-		<inertial>
-			<origin xyz="1.165 1.0625 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Wheel_LeftRear">
 			<origin xyz="1.165 1.0625 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -115,11 +76,6 @@
 		</collision>
 	</link>
 	<link name="Body_WheelLeftMiddle">
-		<inertial>
-			<origin xyz="0.09002 1.1845 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Wheel_LeftMiddle">
 			<origin xyz="0.09002 1.1845 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -134,11 +90,6 @@
 		</collision>
 	</link>
 	<link name="Body_SteerLeftFront">
-		<inertial>
-			<origin xyz="-1.095 1.0625 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Steer_LeftFront">
 			<origin xyz="-1.095 1.0625 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -147,11 +98,6 @@
 		</visual>
 	</link>
 	<link name="Body_WheelLeftFront">
-		<inertial>
-			<origin xyz="-1.095 1.0625 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Wheel_LeftFront">
 			<origin xyz="-1.095 1.0625 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -166,11 +112,6 @@
 		</collision>
 	</link>
 	<link name="Body_RockerRight">
-		<inertial>
-			<origin xyz="-0.214 -0.79959 -0.2405" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Right_Rocker">
 			<origin xyz="-0.214 -0.79959 -0.2405" rpy="0 -0 0"/>
 			<geometry>
@@ -179,11 +120,6 @@
 		</visual>
 	</link>
 	<link name="Body_BogieRight">
-		<inertial>
-			<origin xyz="0.54 -0.91959 -0.4705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Right_Bogie">
 			<origin xyz="0.54 -0.91959 -0.4705" rpy="0 -0 0"/>
 			<geometry>
@@ -192,11 +128,6 @@
 		</visual>
 	</link>
 	<link name="Body_SteerRightRear">
-		<inertial>
-			<origin xyz="1.165 -1.0625 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Steer_RightRear">
 			<origin xyz="1.165 -1.0625 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -205,11 +136,6 @@
 		</visual>
 	</link>
 	<link name="Body_WheelRightRear">
-		<inertial>
-			<origin xyz="1.165 -1.0625 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Wheel_RightRear">
 			<origin xyz="1.165 -1.0625 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -224,11 +150,6 @@
 		</collision>
 	</link>
 	<link name="Body_WheelRightMiddle">
-		<inertial>
-			<origin xyz="0.09002 -1.1845 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Wheel_RightMiddle">
 			<origin xyz="0.09002 -1.1845 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -243,11 +164,6 @@
 		</collision>
 	</link>
 	<link name="Body_SteerRightFront">
-		<inertial>
-			<origin xyz="-1.095 -1.0625 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Steer_RightFront">
 			<origin xyz="-1.095 -1.0625 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -256,11 +172,6 @@
 		</visual>
 	</link>
 	<link name="Body_WheelRightFront">
-		<inertial>
-			<origin xyz="-1.095 -1.0625 -0.8705" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Wheel_RightFront">
 			<origin xyz="-1.095 -1.0625 -0.8705" rpy="0 -0 0"/>
 			<geometry>
@@ -275,11 +186,6 @@
 		</collision>
 	</link>
 	<link name="Body_RSM_AZ">
-		<inertial>
-			<origin xyz="-0.714017 -0.559028 0.78589" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_RSM">
 			<origin xyz="-0.714017 -0.559028 0.78589" rpy="0 -0 0"/>
 			<geometry>
@@ -288,11 +194,6 @@
 		</visual>
 	</link>
 	<link name="Body_RSM_EL">
-		<inertial>
-			<origin xyz="-0.714017 -0.559028 0.78589" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_RSM_HEAD">
 			<origin xyz="-0.714017 -0.559028 0.78589" rpy="0 -0 0"/>
 			<geometry>
@@ -301,11 +202,6 @@
 		</visual>
 	</link>
 	<link name="Body_HGA_AZ">
-		<inertial>
-			<origin xyz="0.46 0.475 -0.0005" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_HGA_AZ">
 			<origin xyz="0.46 0.475 -0.0005" rpy="0 -0 0"/>
 			<geometry>
@@ -314,11 +210,6 @@
 		</visual>
 	</link>
 	<link name="Body_HGA_EL">
-		<inertial>
-			<origin xyz="0.46 0.475 0.2475" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_HGA_EL">
 			<origin xyz="0.46 0.475 0.2475" rpy="0 -0 0"/>
 			<geometry>
@@ -327,18 +218,8 @@
 		</visual>
 	</link>
 	<link name="Body_RA_Base">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Body_RA_Link1">
-		<inertial>
-			<origin xyz="-1.1756 0.4515 -0.3116" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Arm_LINK_1">
 			<origin xyz="-1.1756 0.4515 -0.3116" rpy="0 -0 0"/>
 			<geometry>
@@ -353,11 +234,6 @@
 		</collision>
 	</link>
 	<link name="Body_RA_Link2">
-		<inertial>
-			<origin xyz="-1.3416 0.4515 -0.3116" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Arm_LINK_2">
 			<origin xyz="-1.3416 0.4515 -0.3116" rpy="0 -0 0"/>
 			<geometry>
@@ -372,11 +248,6 @@
 		</collision>
 	</link>
 	<link name="Body_RA_Link3">
-		<inertial>
-			<origin xyz="-2.161 0.4515 -0.3116" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Arm_LINK_3">
 			<origin xyz="-2.161 0.4515 -0.3116" rpy="0 -0 0"/>
 			<geometry>
@@ -391,11 +262,6 @@
 		</collision>
 	</link>
 	<link name="Body_RA_Link4">
-		<inertial>
-			<origin xyz="-2.9143 0.4515 -0.3116" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Arm_LINK_4">
 			<origin xyz="-2.9143 0.4515 -0.3116" rpy="0 -0 0"/>
 			<geometry>
@@ -410,11 +276,6 @@
 		</collision>
 	</link>
 	<link name="Body_RA_Link5">
-		<inertial>
-			<origin xyz="-2.7386 0.2724 -0.3116" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Arm_LINK_5">
 			<origin xyz="-2.7386 0.2724 -0.3116" rpy="0 -0 0"/>
 			<geometry>
@@ -429,11 +290,6 @@
 		</collision>
 	</link>
 	<link name="Body_Turret">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_Turret">
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
 			<geometry>
@@ -442,11 +298,6 @@
 		</visual>
 	</link>
 	<link name="Body_CorerFeed">
-		<inertial>
-			<origin xyz="-2.5301 0.272349 0.0168656" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<!-- hidden visual element
 		<visual name="VisGeom_LaunchBit">
 			<origin xyz="0.208499 -5.1e-05 -3.438e-05" rpy="0 -0 0"/>
@@ -479,11 +330,6 @@
 		-->
 	</link>
 	<link name="Body_StabilizerFar">
-		<inertial>
-			<origin xyz="-2.5301 0.272349 0.0168656" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_StabilizerFar">
 			<origin xyz="0.208499 -5.1e-05 -3.438e-05" rpy="0 -0 0"/>
 			<geometry>
@@ -492,11 +338,6 @@
 		</visual>
 	</link>
 	<link name="Body_StabilizerNear">
-		<inertial>
-			<origin xyz="-2.5301 0.272349 0.0168656" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_StabilizerNear">
 			<origin xyz="0.208499 -5.1e-05 -3.438e-05" rpy="0 -0 0"/>
 			<geometry>
@@ -505,11 +346,6 @@
 		</visual>
 	</link>
 	<link name="Body_WATSON_Cap">
-		<inertial>
-			<origin xyz="-2.6025 0.581204 0.0309103" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_WATSON_Cap">
 			<origin xyz="-2.6025 0.581204 0.0309103" rpy="0 -0 0"/>
 			<geometry>
@@ -518,11 +354,6 @@
 		</visual>
 	</link>
 	<link name="Body_SHERLOC_Cap">
-		<inertial>
-			<origin xyz="-2.86084 0.58439 -0.0124626" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 		<visual name="VisGeom_SHERLOC_Cap">
 			<origin xyz="-2.86084 0.58439 -0.0124626" rpy="0 -0 0"/>
 			<geometry>
@@ -531,571 +362,166 @@
 		</visual>
 	</link>
 	<link name="Frame_RNAV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RMECH">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHCB">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHC1">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHC2">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHC3">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHC4">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHC1_FOV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHC2_FOV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHC3_FOV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FHC4_FOV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RHC1">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RHC2">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RHC1_FOV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RHC2_FOV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ATS1">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ATS2">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ATS3">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ATS4">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ATS5">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_HS">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ICU">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RDS">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_TIRS">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WS1">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WS2">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_MOXIE">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_MI">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_MAZ">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_MEL">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_SCI">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_SCRMI">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_SCLIBS">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_SCIR">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_MCL">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_MCR">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_NCL">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_NCR">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_NCL_FOV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_NCR_FOV">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ROCKER_L">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ROCKER_R">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_BOGIE_L">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_BOGIE_R">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_DIFF">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
-	<link name="Frame_STEER_LF">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
+	<link name="_LF">
 	</link>
 	<link name="Frame_STEER_LR">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_STEER_RF">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_STEER_RR">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WHEEL_LF">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WHEEL_LM">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WHEEL_LR">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WHEEL_RF">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WHEEL_RM">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WHEEL_RR">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RIMUA">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RIMUB">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RIMFAX">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_HGAS">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_HGAG">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_ANT">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RA_BASE">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RA1">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RA2">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RA3">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RA4">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RA5">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_RA6">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_TURRET">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_DOCKING_POST">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_DRILL">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_FCS">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_GDRT">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_PIXL">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_SHERLOC">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_WATSON">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_CAL_MC1">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_CAL_MC2">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_CAL_SC">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_CAL_PIXL">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<link name="Frame_CAL_SHERLOC">
-		<inertial>
-			<origin xyz="0 0 0" rpy="0 -0 0"/>
-			<mass value="1"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-		</inertial>
 	</link>
 	<joint name="JointRoot" type="floating">
 		<origin xyz="0 0 0" rpy="0 -3.14 0"/>
@@ -1553,17 +979,17 @@
 	<joint name="Joint_for_Frame_STEER_LR" type="fixed">
 		<origin xyz="0 0 0" rpy="0 -0 0"/>
 		<parent link="Body_SteerLeftRear"/>
-		<child link="Frame_STEER_LR"/>
+		<child link="_LR"/>
 	</joint>
-	<joint name="Joint_for_Frame_STEER_RF" type="fixed">
+	<joint name="Joint_for__RF" type="fixed">
 		<origin xyz="0 0 0" rpy="0 -0 0"/>
 		<parent link="Body_SteerRightFront"/>
-		<child link="Frame_STEER_RF"/>
+		<child link="_RF"/>
 	</joint>
-	<joint name="Joint_for_Frame_STEER_RR" type="fixed">
+	<joint name="Joint_for__RR" type="fixed">
 		<origin xyz="0 0 0" rpy="0 -0 0"/>
 		<parent link="Body_SteerRightRear"/>
-		<child link="Frame_STEER_RR"/>
+		<child link="_RR"/>
 	</joint>
 	<joint name="Joint_for_Frame_WHEEL_LF" type="fixed">
 		<origin xyz="0 0 0" rpy="0 -0 0"/>
